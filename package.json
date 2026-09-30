@@ -1,0 +1,26 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webwizsharmin/ts-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webwizsharmin/ts-learning/issues"
+  },
+  "homepage": "https://github.com/webwizsharmin/ts-learning#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
