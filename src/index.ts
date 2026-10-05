@@ -65,3 +65,19 @@ const myTesla: ElectricCar = {
   model: "Model 3",
   batteryCapacity: 75,
 };
+
+// Array
+/**
+ * A collection of values of the same or structured data types stored sequentially under a single variable name.
+ *
+ * There are two ways to declare arrays. such as: square bracket Notation(type[]) , Generic Array Syntax(Array<type>)
+ *
+ */
+
+// Square bracket notation
+let standardPrices: number[] = [10, 20, 30];
+
+// Generic array syntax
+let activeUsernames: Array<string> = ["Rahima", "Ubaida", "Sadiya"];
+
+// there are also some advance variations of arrays. they are, array of objects, mixed / unions types , readonly arrays etc.
