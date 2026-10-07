@@ -1,4 +1,5 @@
-import { UserCard } from "./reacts/UserCardProps";
+import { CustomButton } from "./advancedProps";
+import { UserCard } from "./UserCardProps";
 
 function App() {
   const sampleUser = {
@@ -11,6 +12,10 @@ function App() {
       zipCode: 1020,
     },
   };
+
+  const handleButtonClick = () => {
+    alert("Button was clicked!");
+  };
   return (
     <>
       <h1>Hello world!</h1>
@@ -21,6 +26,14 @@ function App() {
         tags={sampleUser.tags}
         address={sampleUser.address}
       />
+
+      <div className="p-10 text-center font-sans">
+        <h1 className="text-2xl">Testing Custom Buttons</h1>
+
+        <CustomButton label="Click Me" onClick={handleButtonClick}>
+          <span>🚀</span>
+        </CustomButton>
+      </div>
     </>
   );
 }
